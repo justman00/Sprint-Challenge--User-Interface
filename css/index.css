@@ -146,10 +146,16 @@ h5 {
   font-size: 18px;
   margin-bottom: 15px;
   font-family: "Rubik", sans-serif;
+  font-weight: 900;
 }
 
 p {
   line-height: 1.4;
+  font-weight: 900;
+}
+
+* {
+  box-sizing: border-box;
 }
 
 .container {
@@ -161,8 +167,8 @@ p {
   display: flex;
   justify-content: space-between;
   align-items: baseline;
-  margin-top: 5%;
-  margin-bottom: 5%;
+  margin-top: 2%;
+  margin-bottom: 4%;
 }
 
 .container header nav {
@@ -186,7 +192,55 @@ p {
 }
 
 .big-img {
+  margin-bottom: 2%;
+}
+
+.about-info {
+  padding-left: 2%;
+  padding-bottom: 2%;
+  border-bottom: 1px dashed black;
+  margin-bottom: 2%;
+}
+
+section .cards {
+  display: flex;
+  padding-top: 5%;
+  justify-content: space-between;
+}
+
+#help-padding {
+  padding-top: 2%;
+}
+
+.card h3 {
+  margin-top: 1.5%;
+}
+
+.card button {
+  font-size: 18px;
+  padding: 10px;
+  border-radius: 8px;
+  border: 2px solid black;
+  background: white;
+  margin: 5% 0 5% 0;
+}
+
+.cards .card {
+  width: 48%;
+  border-bottom: 1px dashed black;
+}
+
+.card img {
+  width: 100%;
+}
+
+.last-part {
+  margin-top: 5%;
   margin-bottom: 5%;
+}
+
+.last-part h3 {
+  font-weight: 700;
 }
 
 .top-content .text-container {
